@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <title>Margin - Padding - Border</title>
+
+    <style>
+        .Box {
+            width: 150px;
+            height: 90px;
+            padding: 27px;
+            text-align: center;
+            font-size: 20px;
+            
+            /*3 Tham số border: 1. color, 2.width, 3.style*/
+            border-color:blue;
+            border-width: 2px;
+            border-style: dashed;
+            border-radius: 5px;
+
+            /*Tốc ký border
+            border: 2px solid red;
+            */
+
+        }
+        .Box1 {
+            background-color:aquamarine;
+        }
+        .Box2 {
+            background-color: aqua;
+        }
+
+        /*table*/
+        .table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 70%;
+            border: 1px solid rgb(1, 7, 3);
+            padding: 8px;
+            background-color: #f7f2f2
+        }
+
+        .table td, .table th {
+            border: 1px solid rgb(7, 11, 11);
+            padding: 8px;
+        }
+
+        .table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #3085ca;
+            color: rgb(241, 242, 243);
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- Class có thể gọi cùng lúc nhiều class khác
+         Các class khác nhau sẽ viết cách nhau bằng dấu cách
+    -->
+    <div class="Box1 Box">BOX 15616316</div>
+    <hr>
+    <div class="Box2 Box">BOX 25615616</div>
+    <br>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Họ Tên</th>
+            <th>Năm sinh</th>
+            <th>Ghi chú</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>003</th>
+            <td>Larry</td>
+            <td>The Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Thẻ form-->
+    <!--label for: nhãn hiển thị thông tin-->
+    <!-- <input type="text" name="" id=""> text: chữ-->
+    <!-- <input type="tel" name="" id="">  tel: sđt-->
+    <!-- <input type="time" name="" id=""> time: thời gian -->
+
+    <h1>Mẫu Login Form</h1>
+    <form action="">
+        <!--Username-->
+        <label for="txt-username">Username</label>
+        <input type="text" name="" placeholder="Username" id="txt-username">
+
+        <!--Password-->
+        <label for="txt-password">Password</label>
+        <input type="password" name="" placeholder="Password" id="txt-password">
+
+        <!--Login & Forgot password-->
+        <a href="./Lession1_BasicTag(1).html"><input type="button" value="Login"></a>
+        <a href="./Lession2_BasicTag(2).html"><input type="button" value="Forgot your password"></a>
+    </form>
+    <hr>
+
+    <!-- Thẻ input dạng text-->
+    <h3>Input dạng text</h3>
+    <form action="./action_page" method="post">
+        <label for="txt-info">Thông tin</label>
+        <input type="text" name="" id="txt-info" placeholder="Nhập thông tin"> <br>
+        <input type="submit" value="Gửi">
+    </form>
+    <hr>
+
+    <!-- Thẻ input dạng password-->
+    <h3>Input dạng password</h3>
+    <form action="./action_page" method="post">
+        <label for="txt-password">Thông tin</label>
+        <input type="password" name="" id="txt-password" placeholder="Nhập password"> <br>
+        <input type="submit" value="Gửi">
+    </form>
+    <hr>
+
+    <!-- Thẻ input dạng email-->
+    <h3>Input dạng email</h3>
+    <form action="./action_page" method="post">
+        <label for="txt-email">Thông tin</label>
+        <input type="email" name="" id="txt-email" placeholder="Nhập email của bạn"> <br>
+        <input type="submit" value="Gửi">
+    </form>
+    <hr>
+
+    <!-- Thẻ input dạng number-->
+    <h3>Input dạng number</h3>
+    <form action="./action_page" method="post">
+        <label for="int-quantity">Số lượng sản phẩm</label>
+        <input type="number" name="" id="int-quantity" placeholder="Nhập số lượng sản phẩm" min=0 max=100 step=10><br>
+        <input type="submit" value="Gửi">
+    </form>
+    <hr>
+
+    <!-- Thẻ input dạng checkbox-->
+    <h3>Input dạng checkbox</h3>
+    <form action="./action_page" method="post">
+        <label for="txt-status">Số lượng đơn hàng: 10</label>
+        <input type="checkbox" name="" id="txt-status"><br>
+
+        <input type="submit" value="Gửi">
+    </form>
+    <hr>
+
+    <!-- Thẻ input dạng radio-->
+    <h3>Input dạng radio</h3>
+    <form action="./action_page" method="post">
+        Giới tính: <br>
+        <label for="txt-male">Nam:</label>
+        <input type="radio" name="gender" id="txt-male" value="Nam">
+        <br>
+        <label for="txt-female">Nữ:</label>
+        <input type="radio" name="gender" id="txt-female" value="Nữ">
+        <br>
+        <label for="txt-other">Khác:</label>
+        <input type="radio" name="gender" id="txt-other" value="Khác">
+        <br>
+        <input type="submit" value="Gửi">
+    </form>
+
+</body>
+</html>

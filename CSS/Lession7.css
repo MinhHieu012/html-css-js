@@ -1,0 +1,29 @@
+#color_with_name {
+    color: brown;
+}
+
+#color_with_rgb {
+    color: rgba(5, 52, 105, 0.87);
+}
+
+#color_with_rgba {
+    color: rgba(rgb(192, 53, 53), rgb(69, 175, 69), rgb(31, 31, 138), 0.5)
+}
+
+.background-style {
+    /*opacity: độ mờ*/
+
+    background-color: rgb(89, 197, 161);
+    background-image: url(none);
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+    /*Cách viết ngắn gọn*/
+    /* background: chocolate url(/add.jpg) repeat right top fixed; */
+}
+
+.background-image {
+    background-image: url(/123.jpg);
+}
+

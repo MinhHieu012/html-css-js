@@ -1,0 +1,10 @@
+h1 {
+    color: rgb(37, 76, 168);
+}
+.background-style {
+    background-color: rgb(89, 197, 161);
+    background-image: url(none);
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}

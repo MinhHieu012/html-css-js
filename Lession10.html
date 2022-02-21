@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position In HTML</title>
+
+    <style>
+        /* .Div-1 {
+            width: 400px;
+            height: 300px;
+            border: 2px red solid;
+            position: relative;
+        }
+
+        .Div-2 {
+            width: 40px;
+            height: 40px;
+            background-color: greenyellow;
+            position: absolute;
+            right: 0px;
+            bottom: 20px;
+        }
+
+        .Div-3 {
+            width: 500px;
+            height: 400px;
+            border: 2px red solid;
+            position: relative;
+        } */
+
+        .cover {
+            background-image: url(/add.jpg);
+            width: 100%;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .Menu {
+            width: 100%;
+            height: 40px;
+            border: 2px red solid;
+            background-color:aqua;
+            background-position: center;
+            /*Sử dụng position: sticky  */
+            position: sticky;
+            top: 0px;
+        }
+
+        .Contact {
+            border: 2px red solid;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            color: blue;
+            font-size: 20px;
+            background-color: bisque;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Sử dụng kĩ thuật position absolute relative
+    1. Đối tượng cố định -> relative
+    2. Đối tượng di chuyển -> absolute
+    -->
+    <!-- <div class="Div-3">
+        <div class="Div-1">
+            <div class="Div-2"></div>
+        </div>
+    </div>
+    <hr> -->
+
+    <div class="Menu"></div>
+    <div class="Contact">Email: 0967710509</div>
+    <div class="cover">
+        <p>Ở Ninh Bình, riêng đối với những trường hợp có nhu cầu đến/về Ninh Bình, yêu cầu phải khai báo y tế, thông báo với chính quyền địa phương nơi cư trú và làm xét nghiệm sàng lọc SARS-CoV-2 bằng phương pháp RT-PCR hoặc test nhanh, nếu kết quả xét nghiệm âm tính mới được trở về gia đình (ở Ninh Bình).</p>
+    </div>
+    
+</body>
+</html>
